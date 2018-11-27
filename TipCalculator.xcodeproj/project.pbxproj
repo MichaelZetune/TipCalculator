@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C850CF021ADD4110051C69B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C850CEF21ADD4110051C69B /* SettingsViewController.swift */; };
 		4CEC49B521AD17F500D06080 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEC49B421AD17F500D06080 /* AppDelegate.swift */; };
 		4CEC49B721AD17F500D06080 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEC49B621AD17F500D06080 /* ViewController.swift */; };
 		4CEC49BA21AD17F500D06080 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CEC49B821AD17F500D06080 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C850CEF21ADD4110051C69B /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		4CEC49B121AD17F500D06080 /* TipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CEC49B421AD17F500D06080 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CEC49B621AD17F500D06080 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				4CEC49B421AD17F500D06080 /* AppDelegate.swift */,
 				4CEC49B621AD17F500D06080 /* ViewController.swift */,
 				4CEC49B821AD17F500D06080 /* Main.storyboard */,
+				4C850CEF21ADD4110051C69B /* SettingsViewController.swift */,
 				4CEC49BB21AD17F700D06080 /* Assets.xcassets */,
 				4CEC49BD21AD17F700D06080 /* LaunchScreen.storyboard */,
 				4CEC49C021AD17F700D06080 /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				4CEC49B721AD17F500D06080 /* ViewController.swift in Sources */,
 				4CEC49B521AD17F500D06080 /* AppDelegate.swift in Sources */,
+				4C850CF021ADD4110051C69B /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

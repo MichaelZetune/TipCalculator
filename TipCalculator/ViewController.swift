@@ -18,12 +18,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let defaults = UserDefaults.standard
+        tipControl.selectedSegmentIndex = defaults.integer(forKey: "defaultTipAmountIndex")
     }
 
 
     @IBAction func onTap(_ sender: Any) {
         view.endEditing(true)
     }
+    
     @IBAction func calculateTip(_ sender: Any) {
         
         let tipPercentages = [0.18, 0.2, 0.25]
