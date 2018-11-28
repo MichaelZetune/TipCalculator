@@ -19,7 +19,7 @@ class SettingsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         defaultTipSelector.selectedSegmentIndex = defaults.integer(forKey: "defaultTipAmountIndex")
-        defaultTipHelpText.text = "On launching the Tip Calculator again in the future, the starting tip amount will be \(tipPercentages[defaultTipSelector.selectedSegmentIndex])%"
+        defaultTipHelpText.text = "On launching the Tip Calculator again in the future, the starting tip amount will be \(100*tipPercentages[defaultTipSelector.selectedSegmentIndex])%"
         // Do any additional setup after loading the view.
     }
     
@@ -29,7 +29,7 @@ class SettingsViewController: UIViewController {
         defaults.set(newTipAmountIndex, forKey: "defaultTipAmountIndex")
         defaults.synchronize()
         
-        defaultTipHelpText.text = "On launching the Tip Calculator again in the future, the starting tip amount will be \(tipPercentages[newTipAmountIndex])%"
+        defaultTipHelpText.text = "On launching the Tip Calculator again in the future, the starting tip amount will be \(100*tipPercentages[newTipAmountIndex])%"
     }
     
     
