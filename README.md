@@ -35,7 +35,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Challenges in developing this app included retaining user data with the UserData class and making the UI consistent across the views.
 
 ## License
 
